@@ -1,0 +1,100 @@
+{
+  "run_at": "2026-10-23T20:11:32",
+  "model": "gpt-6-luna",
+  "gold": [
+    {
+      "case": "Priya (development vs asset mgmt)",
+      "recall": "6/6",
+      "captured": {
+        "modeling share ~30%": true,
+        "remote option (Durango)": true,
+        "intern hiring timeline": true,
+        "intro to Luis Ortega": true,
+        "send resume": true,
+        "read up on interconnection queue": true
+      },
+      "suggestions": [
+        {
+          "kind": "answer_question",
+          "text": "Development at Cascade appears substantially deal-oriented: developers spend about 30% of their time on models and the rest negotiating land leases, interconnection, and offtake contracts. This answers the modeling-versus-deal-making split, though the exact balance may vary by project or seniority."
+        },
+        {
+          "kind": "answer_question",
+          "text": "Mountain-town living may be possible but seems uncommon at Cascade: most developers live in Denver or Boulder, while two work remotely from Durango. It remains unclear whether remote work is available to new hires or interns, or how durable those arrangements are."
+        },
+        {
+          "kind": "employer_note",
+          "text": "Cascade usually hires two MBA interns and makes its decision by mid-January."
+        },
+        {
+          "kind": "contact_note",
+          "text": "Priya offered to introduce you to Luis Ortega, who runs Cascade\u2019s storage team."
+        },
+        {
+          "kind": "task",
+          "text": "Send Priya your resume this week."
+        },
+        {
+          "kind": "task",
+          "text": "Read up on the interconnection queue before your next conversation with Priya."
+        }
+      ],
+      "blocked_by_validator": [],
+      "tokens": {
+        "input_tokens": 5479,
+        "cached_tokens": 3134,
+        "output_tokens": 1201,
+        "cost_usd": 0.000915515,
+        "latency_ms": 15422,
+        "requests": 3,
+        "tool_calls": 4
+      }
+    },
+    {
+      "case": "Sam (recreation infrastructure)",
+      "recall": "4/5",
+      "captured": {
+        "site time 2-3 days/week": true,
+        "grant-dependent revenue": true,
+        "pay lower + profit sharing": true,
+        "fellow owns grant applications": false,
+        "one-page note by Nov 10": true
+      },
+      "suggestions": [
+        {
+          "kind": "answer_question",
+          "text": "At Basecamp, project managers spend two or three days a week on site during the building season, so the role includes meaningful field work. The conversation did not clarify the typical schedule outside building season."
+        },
+        {
+          "kind": "answer_question",
+          "text": "Sam said pay at Basecamp is lower than in energy, but there is profit sharing. The size of the pay gap and how profit sharing works remain unknown."
+        },
+        {
+          "kind": "task",
+          "text": "Send Sam a one-page note describing how you would approach the grant pipeline for two projects by November 10."
+        },
+        {
+          "kind": "employer_note",
+          "text": "Basecamp has eleven people, and project managers have regular on-site responsibilities during the building season."
+        }
+      ],
+      "blocked_by_validator": [
+        {
+          "kind": "employer_note",
+          "text": "Most of Basecamp's money comes from towns and counties using public grants, so project timing depends on grants; Sam would consider a summer MBA fellow to own grant applications for two projects.",
+          "reason": "quote does not appear in the notes"
+        }
+      ],
+      "tokens": {
+        "input_tokens": 5321,
+        "cached_tokens": 4189,
+        "output_tokens": 1064,
+        "cost_usd": 0.0007059400000000001,
+        "latency_ms": 10018,
+        "requests": 3,
+        "tool_calls": 4
+      }
+    }
+  ],
+  "total_cost_usd": 0.001621
+}

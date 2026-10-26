@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "kind": "scout",
+      "added": 15,
+      "blocked": 0
+    },
+    {
+      "kind": "scout",
+      "added": 15,
+      "blocked": 0
+    },
+    {
+      "kind": "connections",
+      "added": 14,
+      "blocked": 0
+    },
+    {
+      "kind": "connections",
+      "added": 14,
+      "blocked": 0
+    }
+  ],
+  "runs": [
+    {
+      "kind": "connections",
+      "input_tokens": 1426,
+      "output_tokens": 5253,
+      "cost_usd": 0.0028016,
+      "proposals_total": 14,
+      "blocked_by_validator": 0
+    },
+    {
+      "kind": "connections",
+      "input_tokens": 1289,
+      "output_tokens": 2171,
+      "cost_usd": 0.001243475,
+      "proposals_total": 14,
+      "blocked_by_validator": 0
+    },
+    {
+      "kind": "scout",
+      "input_tokens": 1618,
+      "output_tokens": 7318,
+      "cost_usd": 0.0038580999999999997,
+      "proposals_total": 15,
+      "blocked_by_validator": 0
+    },
+    {
+      "kind": "scout",
+      "input_tokens": 1555,
+      "output_tokens": 7524,
+      "cost_usd": 0.003953225,
+      "proposals_total": 15,
+      "blocked_by_validator": 0
+    }
+  ]
+}

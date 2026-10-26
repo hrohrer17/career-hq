@@ -1,0 +1,409 @@
+{
+  "run_at": "2026-10-23T23:17:47",
+  "model": "gpt-6-luna",
+  "summary": {
+    "connections": {
+      "n": 2,
+      "input_tokens": {
+        "mean": 1280,
+        "min": 1280,
+        "max": 1280
+      },
+      "cached_tokens": {
+        "mean": 577,
+        "min": 0,
+        "max": 1154
+      },
+      "output_tokens": {
+        "mean": 3304.5,
+        "min": 3214,
+        "max": 3395
+      },
+      "cost_usd": {
+        "mean": 0.001743,
+        "min": 0.0017216400000000002,
+        "max": 0.00176385
+      },
+      "latency_ms": {
+        "mean": 22334,
+        "min": 22072,
+        "max": 22596
+      },
+      "requests": {
+        "mean": 1,
+        "min": 1,
+        "max": 1
+      },
+      "tool_calls": {
+        "mean": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "scout": {
+      "n": 2,
+      "input_tokens": {
+        "mean": 1546,
+        "min": 1546,
+        "max": 1546
+      },
+      "cached_tokens": {
+        "mean": 710,
+        "min": 0,
+        "max": 1420
+      },
+      "output_tokens": {
+        "mean": 7760.5,
+        "min": 7753,
+        "max": 7768
+      },
+      "cost_usd": {
+        "mean": 0.003989,
+        "min": 0.0039033,
+        "max": 0.0040741
+      },
+      "latency_ms": {
+        "mean": 46000,
+        "min": 42061,
+        "max": 49939
+      },
+      "requests": {
+        "mean": 1,
+        "min": 1,
+        "max": 1
+      },
+      "tool_calls": {
+        "mean": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "pathfinder": {
+      "n": 3,
+      "input_tokens": {
+        "mean": 734,
+        "min": 734,
+        "max": 734
+      },
+      "cached_tokens": {
+        "mean": 0,
+        "min": 0,
+        "max": 0
+      },
+      "output_tokens": {
+        "mean": 1785.333333,
+        "min": 1333,
+        "max": 2220
+      },
+      "cost_usd": {
+        "mean": 0.000966,
+        "min": 0.0007398999999999999,
+        "max": 0.0011834
+      },
+      "latency_ms": {
+        "mean": 15623.333333,
+        "min": 11680,
+        "max": 18090
+      },
+      "requests": {
+        "mean": 1,
+        "min": 1,
+        "max": 1
+      },
+      "tool_calls": {
+        "mean": 0,
+        "min": 0,
+        "max": 0
+      }
+    },
+    "debrief": {
+      "n": 4,
+      "input_tokens": {
+        "mean": 4942.25,
+        "min": 3346,
+        "max": 5646
+      },
+      "cached_tokens": {
+        "mean": 3469.5,
+        "min": 2489,
+        "max": 4361
+      },
+      "output_tokens": {
+        "mean": 1021.25,
+        "min": 759,
+        "max": 1183
+      },
+      "cost_usd": {
+        "mean": 0.000718,
+        "min": 0.000505215,
+        "max": 0.00091451
+      },
+      "latency_ms": {
+        "mean": 11366.5,
+        "min": 8317,
+        "max": 13503
+      },
+      "requests": {
+        "mean": 2.75,
+        "min": 2,
+        "max": 3
+      },
+      "tool_calls": {
+        "mean": 3.75,
+        "min": 3,
+        "max": 4
+      }
+    }
+  },
+  "runs": [
+    {
+      "kind": "connections",
+      "contact": "Connections",
+      "input_tokens": 1280,
+      "cached_tokens": 1154,
+      "output_tokens": 3395,
+      "cost_usd": 0.0017216400000000002,
+      "latency_ms": 22596,
+      "requests": 1,
+      "tool_calls": 0,
+      "proposals_total": 14,
+      "blocked_by_validator": 3
+    },
+    {
+      "kind": "connections",
+      "contact": "Connections",
+      "input_tokens": 1280,
+      "cached_tokens": 0,
+      "output_tokens": 3214,
+      "cost_usd": 0.00176385,
+      "latency_ms": 22072,
+      "requests": 1,
+      "tool_calls": 0,
+      "proposals_total": 14,
+      "blocked_by_validator": 0
+    },
+    {
+      "kind": "scout",
+      "contact": "Target Scout",
+      "input_tokens": 1546,
+      "cached_tokens": 1420,
+      "output_tokens": 7753,
+      "cost_usd": 0.0039033,
+      "latency_ms": 42061,
+      "requests": 1,
+      "tool_calls": 0,
+      "proposals_total": 15,
+      "blocked_by_validator": 10
+    },
+    {
+      "kind": "scout",
+      "contact": "Target Scout",
+      "input_tokens": 1546,
+      "cached_tokens": 0,
+      "output_tokens": 7768,
+      "cost_usd": 0.0040741,
+      "latency_ms": 49939,
+      "requests": 1,
+      "tool_calls": 0,
+      "proposals_total": 15,
+      "blocked_by_validator": 0
+    },
+    {
+      "kind": "pathfinder",
+      "contact": "Path Finder",
+      "input_tokens": 734,
+      "cached_tokens": 0,
+      "output_tokens": 1333,
+      "cost_usd": 0.0007398999999999999,
+      "latency_ms": 11680,
+      "requests": 1,
+      "tool_calls": 0,
+      "proposals_total": 5,
+      "blocked_by_validator": 0
+    },
+    {
+      "kind": "pathfinder",
+      "contact": "Path Finder",
+      "input_tokens": 734,
+      "cached_tokens": 0,
+      "output_tokens": 1803,
+      "cost_usd": 0.0009749,
+      "latency_ms": 17100,
+      "requests": 1,
+      "tool_calls": 0,
+      "proposals_total": 5,
+      "blocked_by_validator": 0
+    },
+    {
+      "kind": "pathfinder",
+      "contact": "Path Finder",
+      "input_tokens": 734,
+      "cached_tokens": 0,
+      "output_tokens": 2220,
+      "cost_usd": 0.0011834,
+      "latency_ms": 18090,
+      "requests": 1,
+      "tool_calls": 0,
+      "proposals_total": 5,
+      "blocked_by_validator": 0
+    },
+    {
+      "kind": "debrief",
+      "contact": "Elena Vasquez",
+      "input_tokens": 3346,
+      "cached_tokens": 2489,
+      "output_tokens": 759,
+      "cost_usd": 0.000505215,
+      "latency_ms": 8317,
+      "requests": 2,
+      "tool_calls": 3,
+      "proposals_total": 2,
+      "blocked_by_validator": 0
+    },
+    {
+      "kind": "debrief",
+      "contact": "Marcus Hale",
+      "input_tokens": 5264,
+      "cached_tokens": 3782,
+      "output_tokens": 1030,
+      "cost_usd": 0.00071782,
+      "latency_ms": 13503,
+      "requests": 3,
+      "tool_calls": 4,
+      "proposals_total": 3,
+      "blocked_by_validator": 0
+    },
+    {
+      "kind": "debrief",
+      "contact": "Sam Okafor",
+      "input_tokens": 5513,
+      "cached_tokens": 4361,
+      "output_tokens": 1113,
+      "cost_usd": 0.0007346599999999999,
+      "latency_ms": 11462,
+      "requests": 3,
+      "tool_calls": 4,
+      "proposals_total": 5,
+      "blocked_by_validator": 0
+    },
+    {
+      "kind": "debrief",
+      "contact": "Priya Raman",
+      "input_tokens": 5646,
+      "cached_tokens": 3246,
+      "output_tokens": 1183,
+      "cost_usd": 0.00091451,
+      "latency_ms": 12184,
+      "requests": 3,
+      "tool_calls": 4,
+      "proposals_total": 6,
+      "blocked_by_validator": 0
+    }
+  ],
+  "failed": [],
+  "scout_completeness": {
+    "candidates": 20,
+    "fields_per_candidate": 18,
+    "unknown_share": 0.175,
+    "unknown_by_field": {
+      "sub_sector": 0,
+      "hq": 0,
+      "other_locations": 0,
+      "remote_policy": 5,
+      "size": 0,
+      "ownership": 0,
+      "mba_roles": 0,
+      "kind_of_work": 0,
+      "typical_hours": 1,
+      "schedule": 1,
+      "travel": 0,
+      "field_office": 0,
+      "intern_pay": 20,
+      "base_pay": 12,
+      "upside": 7,
+      "hires_mba_interns": 17,
+      "recruiting_path": 0,
+      "mission": 0
+    }
+  },
+  "debrief_trace": [
+    {
+      "step": "user message",
+      "chars": 870
+    },
+    {
+      "step": "tool call",
+      "tool": "get_contact_profile",
+      "args": "{}"
+    },
+    {
+      "step": "tool call",
+      "tool": "list_open_questions",
+      "args": "{}"
+    },
+    {
+      "step": "tool call",
+      "tool": "search_employers",
+      "args": "{\"query\":\"Cascade\"}"
+    },
+    {
+      "step": "model response",
+      "input_tokens": 1507,
+      "cached_tokens": 0,
+      "output_tokens": 60
+    },
+    {
+      "step": "tool result",
+      "tool": "get_contact_profile",
+      "chars": 339,
+      "preview": "{\"id\": 1, \"name\": \"Priya Raman\", \"role\": \"Director of Project Development\", \"how_met\": \"Yale SOM alumni directory\", \"employer_id\": 2, \"employer\": \"Cascade Solar"
+    },
+    {
+      "step": "tool result",
+      "tool": "list_open_questions",
+      "chars": 1303,
+      "preview": "[{\"id\": 1, \"text\": \"In project development, how much of the job is commercial deal-making versus financial modeling?\", \"why\": \"I want ownership and deal-making,"
+    },
+    {
+      "step": "tool result",
+      "tool": "search_employers",
+      "chars": 138,
+      "preview": "[{\"id\": 2, \"name\": \"Cascade Solar Development\", \"track\": \"energy\", \"path\": \"energy_dev\", \"location\": \"Denver, CO\", \"stage\": \"Networking\"}]"
+    },
+    {
+      "step": "tool call",
+      "tool": "get_employer",
+      "args": "{\"employer_id\":2}"
+    },
+    {
+      "step": "model response",
+      "input_tokens": 1991,
+      "cached_tokens": 1381,
+      "output_tokens": 70
+    },
+    {
+      "step": "tool result",
+      "tool": "get_employer",
+      "chars": 393,
+      "preview": "{\"id\": 2, \"name\": \"Cascade Solar Development\", \"track\": \"energy\", \"path\": \"energy_dev\", \"location\": \"Denver, CO\", \"stage\": \"Networking\", \"summary\": \"Utility-sca"
+    },
+    {
+      "step": "tool call",
+      "tool": "final_result",
+      "args": "{\"summary\":\"Priya explained that development combines project ownership from site selection through financing with substantially more commercial negotiation than modeling: developers spend about 30% of their time on models. Cascade\u2019s developers are mostly based in Denver or Boulder, with two working remotely from Durango, and the company typically hires two MBA interns with decisions by mid-January.\",\"changes\":[{\"kind\":\"answer_question\",\"text\":\"Priya estimates developers spend about 30% of their time on models, with the rest on negotiating land leases, interconnection, and offtake contracts; she also described developers\u2019 ownership as running from site selection through financing. This suggests the work is weighted toward commercial deal-making, though she didn\u2019t specify how the split varies by project or seniority.\",\"evidence\":\"Her developers spend maybe 30 percent of their time on models and the rest negotiating land leases, interconnection and offtake contracts.\",\"rationale\":\"This directly addresses whether development is mainly deal-making or spreadsheet work, a key fit question for you.\",\"employer_id\":2,\"question_id\":1,\"path\":\"energy_dev\"},{\"kind\":\"answer_question\",\"text\":\"Cascade\u2019s developers are mostly based in Denver or Boulder, but two work remotely from Durango, so a mountain-town arrangement appears possible for some people. The notes don\u2019t clarify whether remote work is generally available to new hires or interns.\",\"evidence\":\"most of Cascade's developers live in Denver or Boulder, but two work remotely from Durango.\",\"rationale\":\"Location is a hard requirement, so it\u2019s useful to know this arrangement exists while confirming how accessible it is.\",\"employer_id\":2,\"question_id\":4,\"path\":\"energy_dev\"},{\"kind\":\"employer_note\",\"text\":\"Cascade usually hires two MBA interns and makes internship decisions by mid-January.\",\"evidence\":\"Cascade usually hires two MBA interns and decides by mid-January.\",\"rationale\":\"The hiring cadence helps you plan around the Cascade internship opportunity.\",\"employer_id\":2},{\"kind\":\"contact_note\",\"text\":\"Priya offered to introduce you to Luis Ortega, who runs Cascade\u2019s storage team.\",\"evidence\":\"She offered to introduce me to Luis Ortega, who runs their storage team.\",\"rationale\":\"This could help you learn more about storage development and build a relevant connection.\",\"employer_id\":2},{\"kind\":\"task\",\"text\":\"Send Priya your resume this week.\",\"evidence\":\"I should send her my resume this week\",\"rationale\":\"Following through keeps the conversation moving and supports your internship exploration.\",\"due\":\"2026-10-25\"},{\"kind\":\"task\",\"text\":\"Read up on the interconnection queue before your next conversation with Priya.\",\"evidence\":\"read up on the interconnection queue before we talk again.\",\"rationale\":\"Understanding this topic will help you prepare for a more informed follow-up discussion.\",\"due\":null}],\"notes_contain_instructions\":false}"
+    },
+    {
+      "step": "model response",
+      "input_tokens": 2148,
+      "cached_tokens": 1865,
+      "output_tokens": 1053
+    },
+    {
+      "step": "tool result",
+      "tool": "final_result",
+      "chars": 23,
+      "preview": "Final result processed."
+    }
+  ],
+  "total_cost_usd": 0.017233
+}

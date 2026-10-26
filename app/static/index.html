@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Career HQ</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <header class="mobile-bar">
+    <button class="icon-btn" id="menu-btn" aria-label="Open menu"></button>
+    <span class="brand-mark">C</span><span class="brand-name">Career HQ</span>
+  </header>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#/dashboard">
+        <span class="brand-mark">C</span>
+        <span class="brand-name">Career HQ</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#/dashboard" data-route="dashboard" data-icon="dashboard">Dashboard</a>
+        <a href="#/network" data-route="network" data-icon="people">Networking<span class="nav-badge" id="nav-pending" hidden></span></a>
+        <a href="#/internships" data-route="internships" data-icon="briefcase">Internship HQ</a>
+        <a href="#/decisions" data-route="decisions" data-icon="scale">Decision Studio</a>
+        <a href="#/targets" data-route="targets" data-icon="target">Target employers</a>
+        <a href="#/connections" data-route="connections" data-icon="network">Connections</a>
+        <div class="nav-divider"></div>
+        <a href="#/usage" data-route="usage" data-icon="gauge">AI usage &amp; safety</a>
+      </nav>
+      <div class="sidebar-foot" id="sidebar-foot">Connecting…</div>
+    </aside>
+    <main class="main" id="main" tabindex="-1"></main>
+  </div>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <div class="modal-bg" id="modal-bg" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-head"><h2 id="modal-title"></h2><button class="icon-btn" id="modal-close" aria-label="Close">×</button></div>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,475 @@
+{
+  "_about": "Sample data behind the app's \"Load sample data\" button: one made-up user comparing outdoor recreation and energy careers. Every company, person, email and conversation here is fictional. Dates written as +N / -N are days from the day the sample is loaded.",
+  "settings": {
+    "north_star": "Find work I enjoy, with real ownership, strong pay, and time for life outside work.",
+    "current_priority": "Upcoming internship: explore outdoor recreation first, while keeping energy and infrastructure as a strong alternative.",
+    "planning_note": "A second internship is possible but not certain. Don't plan around it yet.",
+    "decision_principles": "Judge the work itself, not prestige. Prefer project ownership. Pay matters. Location and lifestyle matter."
+  },
+  "paths": [
+    {
+      "key": "energy_dev",
+      "name": "Energy & infrastructure development"
+    },
+    {
+      "key": "recreation_infra",
+      "name": "Recreation infrastructure development"
+    },
+    {
+      "key": "resort_dev",
+      "name": "Mountain resort & destination development"
+    },
+    {
+      "key": "outdoor_advocacy",
+      "name": "Outdoor recreation advocacy & industry"
+    }
+  ],
+  "tracks": [
+    {
+      "key": "outdoor",
+      "name": "Outdoor recreation",
+      "short": "Outdoor",
+      "role": "Primary focus",
+      "blurb": "Recreation infrastructure, resorts and destinations, advocacy and industry."
+    },
+    {
+      "key": "energy",
+      "name": "Energy & infrastructure",
+      "short": "Energy",
+      "role": "Strong alternative",
+      "blurb": "Project development, commercial strategy and execution."
+    }
+  ],
+  "employers": [
+    {
+      "key": "ridgeline",
+      "name": "Ridgeline Geothermal",
+      "track": "energy",
+      "path": "energy_dev",
+      "location": "Salt Lake City, UT",
+      "stage": "Applied",
+      "summary": "Next-generation geothermal developer scaling its first commercial plants."
+    },
+    {
+      "key": "cascade",
+      "name": "Cascade Solar Development",
+      "track": "energy",
+      "path": "energy_dev",
+      "location": "Denver, CO",
+      "stage": "Networking",
+      "summary": "Utility-scale solar and storage developer that also owns and operates its projects."
+    },
+    {
+      "key": "highdesert",
+      "name": "High Desert Transmission",
+      "track": "energy",
+      "path": "energy_dev",
+      "location": "Boise, ID",
+      "stage": "Researching",
+      "summary": "Builds long-distance transmission lines connecting western renewable projects."
+    },
+    {
+      "key": "granite",
+      "name": "Granite Peak Resorts Group",
+      "track": "outdoor",
+      "path": "resort_dev",
+      "location": "Park City, UT",
+      "stage": "Exploring",
+      "summary": "Owns and develops four-season mountain resorts and base villages."
+    },
+    {
+      "key": "basecamp",
+      "name": "Basecamp Recreation Partners",
+      "track": "outdoor",
+      "path": "recreation_infra",
+      "location": "Bozeman, MT",
+      "stage": "Exploring",
+      "summary": "Designs, finances and builds trail systems, bike parks and public recreation sites."
+    },
+    {
+      "key": "summit",
+      "name": "Summit Trails Collective",
+      "track": "outdoor",
+      "path": "outdoor_advocacy",
+      "location": "Denver, CO",
+      "stage": "Networking",
+      "summary": "Industry coalition that lobbies for public-lands access and outdoor recreation funding."
+    },
+    {
+      "key": "alpine",
+      "name": "Alpine Commons Land Trust",
+      "track": "outdoor",
+      "path": "outdoor_advocacy",
+      "location": "Missoula, MT",
+      "stage": "Researching",
+      "summary": "Conservation nonprofit that buys land and opens it for public recreation."
+    }
+  ],
+  "opportunities": [
+    {
+      "employer": "ridgeline",
+      "title": "Strategy Intern",
+      "track": "energy",
+      "status": "Applied",
+      "next_action": "Prepare for first-round case interview",
+      "due": "+14",
+      "notes": "Applied through the company site. Six-person strategy team that works with the CEO."
+    },
+    {
+      "employer": "cascade",
+      "title": "Project Development MBA Intern",
+      "track": "energy",
+      "status": "Networking",
+      "next_action": "Ask about the internship timeline",
+      "due": "+7",
+      "notes": "No posting yet. Alumni contact is the best route in."
+    },
+    {
+      "employer": "highdesert",
+      "title": "Commercial Analyst Intern",
+      "track": "energy",
+      "status": "Researching",
+      "next_action": "Find out whether they hire MBA interns",
+      "due": ""
+    },
+    {
+      "employer": "granite",
+      "title": "Summer Development Associate",
+      "track": "outdoor",
+      "status": "Exploring",
+      "next_action": "Talk to someone on the development team",
+      "due": "+21",
+      "notes": "Not clear they take summer MBA interns; Elena is asking HR."
+    },
+    {
+      "employer": "basecamp",
+      "title": "MBA Fellow, Trail Systems",
+      "track": "outdoor",
+      "status": "Exploring",
+      "next_action": "Follow up after the intro call",
+      "due": ""
+    },
+    {
+      "employer": "summit",
+      "title": "Policy & Partnerships Intern",
+      "track": "outdoor",
+      "status": "Researching",
+      "next_action": "Read the 2026 outdoor economy report",
+      "due": ""
+    },
+    {
+      "employer": "alpine",
+      "title": "Conservation Finance Intern",
+      "track": "outdoor",
+      "status": "Researching",
+      "next_action": "",
+      "due": "",
+      "cycle": "Second internship (if any)",
+      "notes": "Only makes sense if a second internship happens."
+    }
+  ],
+  "contacts": [
+    {
+      "key": "priya",
+      "name": "Priya Raman",
+      "employer": "cascade",
+      "role": "Director of Project Development",
+      "how_met": "Yale SOM alumni directory",
+      "email": "priya.raman@example.com"
+    },
+    {
+      "key": "marcus",
+      "name": "Marcus Hale",
+      "employer": "ridgeline",
+      "role": "Strategy Manager",
+      "how_met": "Energy conference in New Haven",
+      "email": "marcus.hale@example.com"
+    },
+    {
+      "key": "elena",
+      "name": "Elena Vasquez",
+      "employer": "granite",
+      "role": "VP, Real Estate Development",
+      "how_met": "Intro from a classmate",
+      "email": "elena.vasquez@example.com"
+    },
+    {
+      "key": "sam",
+      "name": "Sam Okafor",
+      "employer": "basecamp",
+      "role": "Founder & Principal",
+      "how_met": "Cold LinkedIn message",
+      "email": "sam@example.com"
+    },
+    {
+      "key": "dana",
+      "name": "Dana Whitfield",
+      "employer": "summit",
+      "role": "Director of Policy",
+      "how_met": "Outdoor industry panel at Yale",
+      "email": "dana.whitfield@example.com"
+    },
+    {
+      "key": "tom",
+      "name": "Tom Brennan",
+      "employer": "highdesert",
+      "role": "Senior Associate",
+      "how_met": "Alumni directory, not yet contacted",
+      "email": ""
+    },
+    {
+      "key": "jordan",
+      "name": "Jordan Lee",
+      "employer": null,
+      "role": "Second-year SOM classmate",
+      "how_met": "Outdoor club",
+      "email": ""
+    }
+  ],
+  "contact_notes": [
+    {
+      "contact": "priya",
+      "text": "Moved from investment banking to development in 2019. Happy to talk again after interview season."
+    },
+    {
+      "contact": "elena",
+      "text": "Prefers short emails. Spends most of her time on base-village entitlements."
+    }
+  ],
+  "conversations": [
+    {
+      "contact": "marcus",
+      "occurred_on": "-21",
+      "notes": "Quick coffee at the conference. Marcus said the strategy team is six people and works closely with the CEO. He thinks summer interns get one real project, usually a market-entry analysis for a new state. He suggested I apply early because they close the application in November."
+    },
+    {
+      "contact": "elena",
+      "occurred_on": "-14",
+      "notes": "Twenty-minute call. Elena explained that base-village projects take seven to ten years from land purchase to opening. Most of her team are real-estate people, not ski people. She was not sure whether Granite Peak takes summer MBA interns and said she would ask HR."
+    }
+  ],
+  "questions": [
+    {
+      "text": "In project development, how much of the job is commercial deal-making versus financial modeling?",
+      "why": "I want ownership and deal-making, not a spreadsheet role.",
+      "path": "energy_dev",
+      "employer": null
+    },
+    {
+      "text": "Does Granite Peak hire summer MBA interns, or only full-time associates?",
+      "why": "Decides whether resort development is a realistic internship path.",
+      "path": "resort_dev",
+      "employer": "granite"
+    },
+    {
+      "text": "What does a typical week look like at a recreation infrastructure developer: field work or office work?",
+      "why": "I want tangible execution, not only planning.",
+      "path": "recreation_infra",
+      "employer": "basecamp"
+    },
+    {
+      "text": "Can I live in a mountain town in an energy development role, or are those jobs at big-city headquarters?",
+      "why": "Lifestyle near mountains is a hard requirement.",
+      "path": "energy_dev",
+      "employer": null
+    },
+    {
+      "text": "How do pay and upside in outdoor-industry roles compare with energy development?",
+      "why": "Compensation matters, and I don't know the gap.",
+      "path": null,
+      "employer": null
+    },
+    {
+      "text": "If I get a second internship, which path gains the most from it?",
+      "why": "Affects how I sequence the two tracks.",
+      "path": null,
+      "employer": null
+    }
+  ],
+  "profile": {
+    "industries": [
+      "Energy & infrastructure",
+      "Outdoor recreation"
+    ],
+    "stage": "First-year MBA",
+    "looking_for": "Summer internship",
+    "second_summer": "Maybe",
+    "background": [
+      "Military",
+      "Operations"
+    ],
+    "functions": [
+      "Strategy",
+      "Business development / commercial",
+      "Project development",
+      "Operations"
+    ],
+    "company_stage": [
+      "Growth (50-500)",
+      "Large (500+)",
+      "Nonprofit"
+    ],
+    "mission": "Strong plus",
+    "energy": [
+      "Building projects",
+      "Deal-making & negotiation"
+    ],
+    "ownership": "Own a project end to end",
+    "team_size": "Small (<10)",
+    "travel": "10-30%",
+    "field_office": "Mixed",
+    "regions": [
+      "Mountain West",
+      "Pacific Northwest"
+    ],
+    "setting": "Mountain or small town",
+    "anchors": [
+      "Near skiing / mountains",
+      "Near family"
+    ],
+    "arrangement": "Hybrid",
+    "hours": "45-55",
+    "schedule": "Occasional crunch is fine",
+    "salary": "$150-200k",
+    "upside": "Profit sharing",
+    "trade_pay": "Somewhat",
+    "known_employers": []
+  },
+  "priorities": {
+    "ranking": [
+      "work",
+      "pay",
+      "lifestyle",
+      "impact",
+      "team",
+      "growth",
+      "stability",
+      "brand"
+    ],
+    "dealbreakers": [
+      "over_60_hours",
+      "big_city_only",
+      "heavy_travel"
+    ]
+  },
+  "scores": [
+    {
+      "employer": "ridgeline",
+      "scores": {
+        "work": [
+          5,
+          "Interns own one real market-entry project."
+        ],
+        "pay": 4,
+        "lifestyle": [
+          3,
+          "Salt Lake City: mountains close, but an HQ city."
+        ],
+        "impact": 5,
+        "team": [
+          4,
+          "Six-person team that works with the CEO."
+        ],
+        "growth": 4
+      }
+    },
+    {
+      "employer": "cascade",
+      "scores": {
+        "work": [
+          4,
+          "About 30% modeling, the rest deal-making."
+        ],
+        "pay": 4,
+        "lifestyle": [
+          4,
+          "Most in Denver/Boulder; two remote from Durango."
+        ],
+        "impact": 4,
+        "stability": 4
+      }
+    },
+    {
+      "employer": "granite",
+      "scores": {
+        "work": 3,
+        "pay": 3,
+        "lifestyle": [
+          5,
+          "Park City."
+        ],
+        "impact": 2
+      }
+    },
+    {
+      "employer": "basecamp",
+      "scores": {
+        "work": [
+          5,
+          "PMs on site 2-3 days a week."
+        ],
+        "pay": [
+          2,
+          "Lower than energy, with profit sharing."
+        ],
+        "lifestyle": [
+          5,
+          "Bozeman."
+        ],
+        "impact": 4,
+        "stability": [
+          2,
+          "Depends on public grant timing."
+        ]
+      }
+    },
+    {
+      "employer": "summit",
+      "scores": {
+        "work": 3,
+        "impact": 5,
+        "lifestyle": 3
+      }
+    },
+    {
+      "employer": "highdesert",
+      "scores": {
+        "work": 4,
+        "pay": 4
+      },
+      "dealbreakers": [
+        "heavy_travel"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "description": "Send thank-you note to Elena Vasquez",
+      "due": "+1",
+      "contact": "elena",
+      "employer": "granite"
+    },
+    {
+      "description": "Email Tom Brennan for a 20-minute intro call",
+      "due": "+5",
+      "contact": "tom",
+      "employer": "highdesert"
+    },
+    {
+      "description": "Draft why-geothermal story for Ridgeline interviews",
+      "due": "+10",
+      "contact": null,
+      "employer": "ridgeline"
+    },
+    {
+      "description": "Add project-development bullets to resume",
+      "due": "-2",
+      "contact": null,
+      "employer": null
+    }
+  ],
+  "sample_notes": {
+    "priya": "Call with Priya Raman, 30 minutes. She said the biggest difference between development and asset management is timing: developers own a project from site selection through financing, while asset managers take over once it is operating. Her developers spend maybe 30 percent of their time on models and the rest negotiating land leases, interconnection and offtake contracts. She said most of Cascade's developers live in Denver or Boulder, but two work remotely from Durango. Cascade usually hires two MBA interns and decides by mid-January. She offered to introduce me to Luis Ortega, who runs their storage team. I should send her my resume this week and read up on the interconnection queue before we talk again.",
+    "sam": "Phone call with Sam Okafor. Sam said Basecamp has eleven people and every project manager spends two or three days a week on site during the building season. Most of their money comes from towns and counties using public grants, so projects depend on grant timing. He said pay is lower than energy but there is profit sharing. He would consider a summer MBA fellow if the person could own grant applications for two projects. He asked me to send a one-page note on how I would approach the grant pipeline by November 10."
+  }
+}

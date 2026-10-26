@@ -1,0 +1,18 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# databases (the demo one is rebuilt from data/demo_seed.json on first run)
+*.sqlite3
+*.sqlite3-*
+data/private/
+*_private.*
+
+# python
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
+.DS_Store
