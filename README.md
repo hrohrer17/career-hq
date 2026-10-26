@@ -22,7 +22,7 @@ You need Python 3.10 or newer (built and tested on 3.14.7) and an API key.
 **1. Get the code and install**
 
 ```bash
-git clone <this repo's URL> career-hq
+git clone https://github.com/hrohrer17/career-hq.git
 cd career-hq
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
